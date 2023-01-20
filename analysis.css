@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bree Serif', serif;
+}
+
+#sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    height: 177px;
+}
+#sec1 div{
+    margin-top: 2px;
+}
+#p1{
+    font-size: 2rem;
+}
+#p2{
+    font-size: 1.5rem;
+}
+#sec1::before{
+    content: "";
+    background: url('img6.jpg') no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.webdes{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Questions{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 10px;
+}
+
+.btn{
+    height: 34px;
+    width: 218px;
+    background-color: white;
+    border-radius: 9px;
+
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#Questions::before{
+    content:"";
+    background: url('pink wall.jpeg') no-repeat center center/cover;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.4;
+}
+
+#q1,#q2,#q3,#q4,#q5,#q6,#q7,#q8,#q9,#q10,#q11,#q12{
+    font-size: 1.5rem;
+}
